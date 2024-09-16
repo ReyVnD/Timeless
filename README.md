@@ -3,11 +3,11 @@
 <table>
 <tr>
 <td>
-  Timeless adalah proyek akhir saya yang mengusung konsep e-commerce khusus untuk jam tangan mewah. Sebagai e-commerce jam tangan luxury pertama di Indonesia, Timeless menyediakan berbagai pilihan jam tangan mewah dengan fokus pada kualitas dan eksklusivitas. Platform ini menawarkan pengalaman belanja yang premium dan mudah bagi para penggemar jam tangan luxury di tanah air.
+  Timeless adalah proyek akhir saya yang mengusung konsep e-commerce yang berfokus pada jam tangan mewah. Sebagai e-commerce jam tangan luxury pertama di Indonesia, Timeless menyediakan berbagai pilihan jam tangan mewah dengan fokus pada kualitas dan eksklusivitas. Platform ini menawarkan pengalaman belanja yang premium dan mudah bagi para penggemar jam tangan luxury di tanah air.
 </td>
 </tr>
 </table>
 
 
 ## Demo
-Ini demo yang bekerja untuk website saya :  (https://reyvnd.github.io/Timeless/)
+Ini demo yang bekerja untuk website saya :  https://reyvnd.github.io/Timeless/
