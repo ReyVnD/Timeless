@@ -552,14 +552,14 @@
               </ul>
             </div>
             <div class="col-12 col-xl-3">
-              <h5 class="lh-lg text-light ">Daftar Untuk Mendapatkan Informasi Terbaru Dari Kami</h5>
+              <h5 class="lh-lg text-light">Daftar Untuk Mendapatkan Informasi Terbaru Dari Kami</h5>
               <div class="row input-group-icon mb-5">
                 <div class="col-12">
-                  <form class="row row-cols-lg-auto g-0 align-items-center">
+                  <form class="row row-cols-lg-auto g-0 align-items-center" onsubmit="sendToWhatsApp(event)">
                     <div class="col-8 col-lg-9">
                       <label class="visually-hidden" for="colFormLabel">Username</label>
                       <div class="input-group">
-                        <input class="rounded-end-0 form-control" id="colFormLabel" type="email" placeholder="email address" />
+                        <input class="rounded-end-0 form-control" id="colFormLabel" type="email" placeholder="alamat email" required />
                       </div>
                     </div>
                     <div class="col-4 col-lg-3">
@@ -569,6 +569,20 @@
                 </div>
               </div>
             </div>
+            
+            <script>
+              function sendToWhatsApp(event) {
+                event.preventDefault(); // Mencegah pengiriman formulir standar
+                const email = document.getElementById('colFormLabel').value;
+                const phoneNumber = '6281341111448'; // Ganti dengan nomor WhatsApp Anda
+            
+                if (email) {
+                  const waLink = `https://wa.me/${phoneNumber}?text=Halo,%20saya%20ingin%20berlangganan%20berita%20terbaru%20Timeless%20dengan%20email:%20${encodeURIComponent(email)}`;
+                  window.open(waLink, '_blank');
+                }
+              }
+            </script>
+            
           </div>
           <div class="border-bottom border-700"></div>
           <div class="row flex-center my-3">
